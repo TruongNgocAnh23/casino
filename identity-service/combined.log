@@ -59,3 +59,276 @@
 {"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-06-01T06:10:40.547Z"}
 {"level":"info","message":"Resgistration end point hit...","service":"identity-service","timestamp":"2025-06-01T06:10:40.557Z"}
 {"0":"\"","1":"e","10":"s","11":"t","12":" ","13":"b","14":"e","15":" ","16":"a","17":" ","18":"v","19":"a","2":"m","20":"l","21":"i","22":"d","23":" ","24":"e","25":"m","26":"a","27":"i","28":"l","3":"a","4":"i","5":"l","6":"\"","7":" ","8":"m","9":"u","level":"warn","message":"Validation error","service":"identity-service","timestamp":"2025-06-01T06:10:40.578Z"}
+{"level":"info","message":"Identity service running on port: 3001","service":"identity-service","timestamp":"2025-06-05T01:43:19.029Z"}
+{"level":"info","message":"Connect to mongodb","service":"identity-service","timestamp":"2025-06-05T01:43:20.926Z"}
+{"0":"r","1":"e","2":"a","3":"s","4":"o","5":"n","level":"error","message":"Unhandled Rejection at","service":"identity-service","timestamp":"2025-06-05T01:43:29.740Z"}
+{"0":"r","1":"e","2":"a","3":"s","4":"o","5":"n","level":"error","message":"Unhandled Rejection at","service":"identity-service","timestamp":"2025-06-05T01:43:29.740Z"}
+{"level":"info","message":"Received POST request to /api/auth/register","service":"identity-service","timestamp":"2025-06-05T01:43:31.597Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-06-05T01:43:31.597Z"}
+{"level":"info","message":"Received POST request to /api/auth/register","service":"identity-service","timestamp":"2025-06-05T01:43:49.861Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-06-05T01:43:49.861Z"}
+{"level":"warn","message":"Rate limit exceeded from IP: ::1","service":"identity-service","timestamp":"2025-06-05T01:44:02.444Z"}
+{"level":"warn","message":"Rate limit exceeded from IP: ::1","service":"identity-service","timestamp":"2025-06-05T01:44:02.445Z"}
+{"level":"info","message":"Identity service running on port: 3001","service":"identity-service","timestamp":"2025-06-05T01:46:31.658Z"}
+{"level":"info","message":"Connect to mongodb","service":"identity-service","timestamp":"2025-06-05T01:46:33.625Z"}
+{"0":"r","1":"e","2":"a","3":"s","4":"o","5":"n","level":"error","message":"Unhandled Rejection at","service":"identity-service","timestamp":"2025-06-05T01:46:42.418Z"}
+{"0":"r","1":"e","2":"a","3":"s","4":"o","5":"n","level":"error","message":"Unhandled Rejection at","service":"identity-service","timestamp":"2025-06-05T01:46:42.418Z"}
+{"level":"info","message":"Identity service running on port: 3001","service":"identity-service","timestamp":"2025-06-05T01:53:25.452Z"}
+{"level":"info","message":"Connect to mongodb","service":"identity-service","timestamp":"2025-06-05T01:53:27.346Z"}
+{"level":"error","message":"Unhandled Rejection at:","promise":{},"reason":"MaxRetriesPerRequestError: Reached the max retries per request limit (which is 20). Refer to \"maxRetriesPerRequest\" option for details.\n    at Socket.<anonymous> (D:\\casino\\identity-service\\node_modules\\ioredis\\built\\redis\\event_handler.js:182:37)\n    at Object.onceWrapper (node:events:633:26)\n    at Socket.emit (node:events:518:28)\n    at TCP.<anonymous> (node:net:351:12)","service":"identity-service","timestamp":"2025-06-05T01:53:36.176Z"}
+{"level":"error","message":"Unhandled Rejection at:","promise":{},"reason":"MaxRetriesPerRequestError: Reached the max retries per request limit (which is 20). Refer to \"maxRetriesPerRequest\" option for details.\n    at Socket.<anonymous> (D:\\casino\\identity-service\\node_modules\\ioredis\\built\\redis\\event_handler.js:182:37)\n    at Object.onceWrapper (node:events:633:26)\n    at Socket.emit (node:events:518:28)\n    at TCP.<anonymous> (node:net:351:12)","service":"identity-service","timestamp":"2025-06-05T01:53:36.177Z"}
+{"level":"info","message":"Identity service running on port: 3001","service":"identity-service","timestamp":"2025-06-05T01:56:20.975Z"}
+{"level":"info","message":"Connect to mongodb","service":"identity-service","timestamp":"2025-06-05T01:56:22.915Z"}
+{"level":"info","message":"Received POST request to /api/auth/register","service":"identity-service","timestamp":"2025-06-05T01:57:05.937Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-06-05T01:57:05.938Z"}
+{"level":"info","message":"Resgistration end point hit...","service":"identity-service","timestamp":"2025-06-05T01:57:05.941Z"}
+{"0":"\"","1":"e","10":"s","11":"t","12":" ","13":"b","14":"e","15":" ","16":"a","17":" ","18":"v","19":"a","2":"m","20":"l","21":"i","22":"d","23":" ","24":"e","25":"m","26":"a","27":"i","28":"l","3":"a","4":"i","5":"l","6":"\"","7":" ","8":"m","9":"u","level":"warn","message":"Validation error","service":"identity-service","timestamp":"2025-06-05T01:57:05.945Z"}
+{"level":"info","message":"Received POST request to /api/auth/register","service":"identity-service","timestamp":"2025-06-05T01:57:08.067Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-06-05T01:57:08.067Z"}
+{"level":"info","message":"Resgistration end point hit...","service":"identity-service","timestamp":"2025-06-05T01:57:08.069Z"}
+{"0":"\"","1":"e","10":"s","11":"t","12":" ","13":"b","14":"e","15":" ","16":"a","17":" ","18":"v","19":"a","2":"m","20":"l","21":"i","22":"d","23":" ","24":"e","25":"m","26":"a","27":"i","28":"l","3":"a","4":"i","5":"l","6":"\"","7":" ","8":"m","9":"u","level":"warn","message":"Validation error","service":"identity-service","timestamp":"2025-06-05T01:57:08.070Z"}
+{"level":"info","message":"Received POST request to /api/auth/register","service":"identity-service","timestamp":"2025-06-05T01:57:12.773Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-06-05T01:57:12.774Z"}
+{"level":"info","message":"Resgistration end point hit...","service":"identity-service","timestamp":"2025-06-05T01:57:12.775Z"}
+{"buffer":{"data":[104,64,249,120,88,162,173,178,103,27,83,191],"type":"Buffer"},"level":"warn","message":"User saved successfully","service":"identity-service","timestamp":"2025-06-05T01:57:13.213Z"}
+{"level":"error","message":"Unhandled Rejection at:","promise":{},"reason":"ReferenceError: RefreshToken is not defined\n    at generateTokens (D:\\casino\\identity-service\\src\\utils\\generateToken.js:16:5)\n    at registerUser (D:\\casino\\identity-service\\src\\controllers\\identity-controller.js:30:47)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)","service":"identity-service","timestamp":"2025-06-05T01:57:13.215Z"}
+{"level":"info","message":"Identity service running on port: 3001","service":"identity-service","timestamp":"2025-06-05T02:04:05.977Z"}
+{"level":"info","message":"Connect to mongodb","service":"identity-service","timestamp":"2025-06-05T02:04:07.896Z"}
+{"level":"info","message":"Received POST request to /api/auth/register","service":"identity-service","timestamp":"2025-06-05T02:04:12.180Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-06-05T02:04:12.180Z"}
+{"level":"info","message":"Resgistration end point hit...","service":"identity-service","timestamp":"2025-06-05T02:04:12.183Z"}
+{"buffer":{"data":[104,64,251,28,52,73,150,107,89,242,240,19],"type":"Buffer"},"level":"warn","message":"User saved successfully","service":"identity-service","timestamp":"2025-06-05T02:04:12.625Z"}
+{"level":"error","message":"Unhandled Rejection at:","promise":{},"reason":"ReferenceError: RefreshToken is not defined\n    at generateTokens (D:\\casino\\identity-service\\src\\utils\\generateToken.js:16:5)\n    at registerUser (D:\\casino\\identity-service\\src\\controllers\\identity-controller.js:30:47)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)","service":"identity-service","timestamp":"2025-06-05T02:04:12.629Z"}
+{"level":"info","message":"Received POST request to /api/auth/register","service":"identity-service","timestamp":"2025-06-05T02:04:42.646Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-06-05T02:04:42.646Z"}
+{"level":"info","message":"Resgistration end point hit...","service":"identity-service","timestamp":"2025-06-05T02:04:42.648Z"}
+{"level":"warn","message":"User already exists","service":"identity-service","timestamp":"2025-06-05T02:04:42.842Z"}
+{"level":"info","message":"Received POST request to /api/auth/register","service":"identity-service","timestamp":"2025-06-05T02:04:49.359Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-06-05T02:04:49.360Z"}
+{"level":"info","message":"Resgistration end point hit...","service":"identity-service","timestamp":"2025-06-05T02:04:49.361Z"}
+{"buffer":{"data":[104,64,251,65,52,73,150,107,89,242,240,23],"type":"Buffer"},"level":"warn","message":"User saved successfully","service":"identity-service","timestamp":"2025-06-05T02:04:49.797Z"}
+{"level":"error","message":"Unhandled Rejection at:","promise":{},"reason":"ReferenceError: RefreshToken is not defined\n    at generateTokens (D:\\casino\\identity-service\\src\\utils\\generateToken.js:16:5)\n    at registerUser (D:\\casino\\identity-service\\src\\controllers\\identity-controller.js:30:47)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)","service":"identity-service","timestamp":"2025-06-05T02:04:49.799Z"}
+{"level":"info","message":"Identity service running on port: 3001","service":"identity-service","timestamp":"2025-06-05T02:06:25.829Z"}
+{"level":"info","message":"Connect to mongodb","service":"identity-service","timestamp":"2025-06-05T02:06:27.777Z"}
+{"level":"info","message":"Received POST request to /api/auth/register","service":"identity-service","timestamp":"2025-06-05T02:06:36.930Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-06-05T02:06:36.930Z"}
+{"level":"info","message":"Resgistration end point hit...","service":"identity-service","timestamp":"2025-06-05T02:06:36.938Z"}
+{"level":"warn","message":"User already exists","service":"identity-service","timestamp":"2025-06-05T02:06:37.137Z"}
+{"level":"info","message":"Received POST request to /api/auth/register","service":"identity-service","timestamp":"2025-06-05T02:06:45.260Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-06-05T02:06:45.260Z"}
+{"level":"info","message":"Resgistration end point hit...","service":"identity-service","timestamp":"2025-06-05T02:06:45.261Z"}
+{"buffer":{"data":[104,64,251,181,164,32,160,210,184,240,166,167],"type":"Buffer"},"level":"warn","message":"User saved successfully","service":"identity-service","timestamp":"2025-06-05T02:06:45.694Z"}
+{"level":"error","message":"Unhandled Rejection at:","promise":{},"reason":"ReferenceError: RefreshToken is not defined\n    at generateTokens (D:\\casino\\identity-service\\src\\utils\\generateToken.js:16:5)\n    at registerUser (D:\\casino\\identity-service\\src\\controllers\\identity-controller.js:30:47)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)","service":"identity-service","timestamp":"2025-06-05T02:06:45.699Z"}
+{"level":"info","message":"Identity service running on port: 3001","service":"identity-service","timestamp":"2025-06-05T02:12:09.237Z"}
+{"level":"info","message":"Connect to mongodb","service":"identity-service","timestamp":"2025-06-05T02:12:11.133Z"}
+{"level":"info","message":"Received POST request to /api/auth/register","service":"identity-service","timestamp":"2025-06-05T02:12:21.968Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-06-05T02:12:21.968Z"}
+{"level":"info","message":"Resgistration end point hit...","service":"identity-service","timestamp":"2025-06-05T02:12:21.971Z"}
+{"buffer":{"data":[104,64,253,6,162,209,189,88,208,200,75,144],"type":"Buffer"},"level":"warn","message":"User saved successfully","service":"identity-service","timestamp":"2025-06-05T02:12:22.409Z"}
+{"level":"info","message":"Received POST request to /api/auth/register","service":"identity-service","timestamp":"2025-06-05T02:18:10.925Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-06-05T02:18:10.925Z"}
+{"level":"info","message":"Resgistration end point hit...","service":"identity-service","timestamp":"2025-06-05T02:18:10.931Z"}
+{"buffer":{"data":[104,64,254,99,162,209,189,88,208,200,75,149],"type":"Buffer"},"level":"warn","message":"User saved successfully","service":"identity-service","timestamp":"2025-06-05T02:18:11.357Z"}
+{"level":"info","message":"Identity service running on port: 3001","service":"identity-service","timestamp":"2025-06-05T02:18:26.468Z"}
+{"level":"info","message":"Connect to mongodb","service":"identity-service","timestamp":"2025-06-05T02:18:28.383Z"}
+{"level":"info","message":"Received POST request to /api/auth/register","service":"identity-service","timestamp":"2025-06-05T02:18:28.967Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-06-05T02:18:28.968Z"}
+{"level":"info","message":"Resgistration end point hit...","service":"identity-service","timestamp":"2025-06-05T02:18:28.971Z"}
+{"level":"warn","message":"User already exists","service":"identity-service","timestamp":"2025-06-05T02:18:30.163Z"}
+{"level":"info","message":"Received POST request to /api/auth/register","service":"identity-service","timestamp":"2025-06-05T02:18:36.224Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-06-05T02:18:36.224Z"}
+{"level":"info","message":"Resgistration end point hit...","service":"identity-service","timestamp":"2025-06-05T02:18:36.225Z"}
+{"buffer":{"data":[104,64,254,124,127,249,151,28,73,10,146,56],"type":"Buffer"},"level":"info","message":"User saved successfully","service":"identity-service","timestamp":"2025-06-05T02:18:36.656Z"}
+{"level":"info","message":"Identity service running on port: 3001","service":"identity-service","timestamp":"2025-06-05T02:33:53.681Z"}
+{"level":"info","message":"Connect to mongodb","service":"identity-service","timestamp":"2025-06-05T02:33:55.572Z"}
+{"level":"info","message":"Identity service running on port: 3001","service":"identity-service","timestamp":"2025-06-05T03:50:34.620Z"}
+{"level":"info","message":"Connect to mongodb","service":"identity-service","timestamp":"2025-06-05T03:50:36.573Z"}
+{"level":"info","message":"Received POST request to /api/auth/register","service":"identity-service","timestamp":"2025-06-05T03:50:40.633Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-06-05T03:50:40.633Z"}
+{"level":"info","message":"Resgistration end point hit...","service":"identity-service","timestamp":"2025-06-05T03:50:40.636Z"}
+{"level":"warn","message":"User already exists","service":"identity-service","timestamp":"2025-06-05T03:50:40.836Z"}
+{"level":"info","message":"Received POST request to /v1/auth/register","service":"identity-service","timestamp":"2025-06-05T03:50:50.870Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-06-05T03:50:50.871Z"}
+{"level":"info","message":"Received POST request to /api/auth/register","service":"identity-service","timestamp":"2025-06-05T03:52:41.963Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-06-05T03:52:41.964Z"}
+{"level":"info","message":"Resgistration end point hit...","service":"identity-service","timestamp":"2025-06-05T03:52:41.965Z"}
+{"level":"warn","message":"User already exists","service":"identity-service","timestamp":"2025-06-05T03:52:42.173Z"}
+{"level":"info","message":"Received POST request to /api/auth/register","service":"identity-service","timestamp":"2025-06-05T03:54:13.473Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-06-05T03:54:13.474Z"}
+{"level":"info","message":"Resgistration end point hit...","service":"identity-service","timestamp":"2025-06-05T03:54:13.475Z"}
+{"level":"warn","message":"User already exists","service":"identity-service","timestamp":"2025-06-05T03:54:13.668Z"}
+{"level":"info","message":"Received POST request to /api/auth/register","service":"identity-service","timestamp":"2025-06-05T03:58:44.540Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-06-05T03:58:44.540Z"}
+{"level":"info","message":"Resgistration end point hit...","service":"identity-service","timestamp":"2025-06-05T03:58:44.541Z"}
+{"0":"\"","1":"u","10":" ","11":"i","12":"s","13":" ","14":"r","15":"e","16":"q","17":"u","18":"i","19":"r","2":"s","20":"e","21":"d","3":"e","4":"r","5":"n","6":"a","7":"m","8":"e","9":"\"","level":"warn","message":"Validation error","service":"identity-service","timestamp":"2025-06-05T03:58:44.542Z"}
+{"level":"info","message":"Received POST request to /api/auth/register","service":"identity-service","timestamp":"2025-06-05T03:59:13.800Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-06-05T03:59:13.800Z"}
+{"level":"info","message":"Resgistration end point hit...","service":"identity-service","timestamp":"2025-06-05T03:59:13.800Z"}
+{"0":"\"","1":"u","10":" ","11":"i","12":"s","13":" ","14":"r","15":"e","16":"q","17":"u","18":"i","19":"r","2":"s","20":"e","21":"d","3":"e","4":"r","5":"n","6":"a","7":"m","8":"e","9":"\"","level":"warn","message":"Validation error","service":"identity-service","timestamp":"2025-06-05T03:59:13.801Z"}
+{"level":"info","message":"Received POST request to /api/auth/register","service":"identity-service","timestamp":"2025-06-05T03:59:15.737Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-06-05T03:59:15.737Z"}
+{"level":"info","message":"Resgistration end point hit...","service":"identity-service","timestamp":"2025-06-05T03:59:15.738Z"}
+{"0":"\"","1":"u","10":" ","11":"i","12":"s","13":" ","14":"r","15":"e","16":"q","17":"u","18":"i","19":"r","2":"s","20":"e","21":"d","3":"e","4":"r","5":"n","6":"a","7":"m","8":"e","9":"\"","level":"warn","message":"Validation error","service":"identity-service","timestamp":"2025-06-05T03:59:15.739Z"}
+{"level":"info","message":"Identity service running on port: 3001","service":"identity-service","timestamp":"2025-06-05T03:59:40.827Z"}
+{"level":"info","message":"Connect to mongodb","service":"identity-service","timestamp":"2025-06-05T03:59:42.769Z"}
+{"level":"info","message":"Received POST request to /api/auth/register","service":"identity-service","timestamp":"2025-06-05T03:59:45.028Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-06-05T03:59:45.029Z"}
+{"level":"info","message":"Resgistration end point hit...","service":"identity-service","timestamp":"2025-06-05T03:59:45.031Z"}
+{"level":"warn","message":"Email already exists","service":"identity-service","timestamp":"2025-06-05T03:59:45.236Z"}
+{"level":"info","message":"Received POST request to /api/auth/register","service":"identity-service","timestamp":"2025-06-05T04:03:08.352Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-06-05T04:03:08.352Z"}
+{"level":"info","message":"Resgistration end point hit...","service":"identity-service","timestamp":"2025-06-05T04:03:08.354Z"}
+{"level":"warn","message":"Email already exists","service":"identity-service","timestamp":"2025-06-05T04:03:08.546Z"}
+{"level":"info","message":"Received POST request to /api/auth/register","service":"identity-service","timestamp":"2025-06-05T04:03:27.076Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-06-05T04:03:27.077Z"}
+{"level":"info","message":"Resgistration end point hit...","service":"identity-service","timestamp":"2025-06-05T04:03:27.078Z"}
+{"buffer":{"data":[104,65,23,15,146,131,13,126,188,74,160,80],"type":"Buffer"},"level":"info","message":"User saved successfully","service":"identity-service","timestamp":"2025-06-05T04:03:27.517Z"}
+{"level":"info","message":"Identity service running on port: 3001","service":"identity-service","timestamp":"2025-06-05T04:04:10.288Z"}
+{"level":"info","message":"Connect to mongodb","service":"identity-service","timestamp":"2025-06-05T04:04:12.252Z"}
+{"level":"info","message":"Received POST request to /api/auth/register","service":"identity-service","timestamp":"2025-06-05T04:04:23.404Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-06-05T04:04:23.404Z"}
+{"level":"info","message":"Resgistration end point hit...","service":"identity-service","timestamp":"2025-06-05T04:04:23.407Z"}
+{"buffer":{"data":[104,65,23,71,245,216,248,124,239,230,97,22],"type":"Buffer"},"level":"info","message":"User saved successfully","service":"identity-service","timestamp":"2025-06-05T04:04:23.839Z"}
+{"level":"info","message":"Identity service running on port: 3001","service":"identity-service","timestamp":"2025-06-05T04:09:09.462Z"}
+{"level":"info","message":"Connect to mongodb","service":"identity-service","timestamp":"2025-06-05T04:09:11.385Z"}
+{"level":"info","message":"Received POST request to /api/auth/register","service":"identity-service","timestamp":"2025-06-05T04:09:28.181Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-06-05T04:09:28.181Z"}
+{"level":"info","message":"Resgistration end point hit...","service":"identity-service","timestamp":"2025-06-05T04:09:28.184Z"}
+{"buffer":{"data":[104,65,24,120,187,7,2,80,76,23,171,112],"type":"Buffer"},"level":"info","message":"User saved successfully","service":"identity-service","timestamp":"2025-06-05T04:09:28.622Z"}
+{"level":"info","message":"Identity service running on port: 3001","service":"identity-service","timestamp":"2025-06-05T04:36:15.691Z"}
+{"level":"info","message":"Connect to mongodb","service":"identity-service","timestamp":"2025-06-05T04:36:17.598Z"}
+{"level":"info","message":"Received POST request to /api/auth/register","service":"identity-service","timestamp":"2025-06-05T04:37:46.308Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-06-05T04:37:46.308Z"}
+{"level":"info","message":"Resgistration end point hit...","service":"identity-service","timestamp":"2025-06-05T04:37:46.311Z"}
+{"level":"warn","message":"Email already exists","service":"identity-service","timestamp":"2025-06-05T04:37:46.512Z"}
+{"level":"info","message":"Received POST request to /api/auth/login","service":"identity-service","timestamp":"2025-06-05T04:38:03.965Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-06-05T04:38:03.965Z"}
+{"level":"info","message":"Login end point hit...","service":"identity-service","timestamp":"2025-06-05T04:38:03.966Z"}
+{"level":"error","message":"Registration error occured user.comparePassword is not a function","service":"identity-service","stack":"TypeError: user.comparePassword is not a function\n    at loginUser (D:\\casino\\identity-service\\src\\controllers\\identity-controller.js:64:40)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)","timestamp":"2025-06-05T04:38:04.159Z"}
+{"level":"info","message":"Received POST request to /api/auth/login","service":"identity-service","timestamp":"2025-06-05T04:38:07.317Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-06-05T04:38:07.318Z"}
+{"level":"info","message":"Login end point hit...","service":"identity-service","timestamp":"2025-06-05T04:38:07.318Z"}
+{"level":"error","message":"Registration error occured user.comparePassword is not a function","service":"identity-service","stack":"TypeError: user.comparePassword is not a function\n    at loginUser (D:\\casino\\identity-service\\src\\controllers\\identity-controller.js:64:40)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)","timestamp":"2025-06-05T04:38:07.512Z"}
+{"level":"info","message":"Received POST request to /api/auth/login","service":"identity-service","timestamp":"2025-06-05T04:40:20.396Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-06-05T04:40:20.397Z"}
+{"level":"info","message":"Login end point hit...","service":"identity-service","timestamp":"2025-06-05T04:40:20.397Z"}
+{"level":"error","message":"Registration error occured user.comparePassword is not a function","service":"identity-service","stack":"TypeError: user.comparePassword is not a function\n    at loginUser (D:\\casino\\identity-service\\src\\controllers\\identity-controller.js:64:40)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)","timestamp":"2025-06-05T04:40:20.592Z"}
+{"level":"info","message":"Received POST request to /api/auth/login","service":"identity-service","timestamp":"2025-06-05T04:40:22.677Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-06-05T04:40:22.677Z"}
+{"level":"info","message":"Login end point hit...","service":"identity-service","timestamp":"2025-06-05T04:40:22.678Z"}
+{"level":"error","message":"Registration error occured user.comparePassword is not a function","service":"identity-service","stack":"TypeError: user.comparePassword is not a function\n    at loginUser (D:\\casino\\identity-service\\src\\controllers\\identity-controller.js:64:40)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)","timestamp":"2025-06-05T04:40:22.872Z"}
+{"level":"info","message":"Identity service running on port: 3001","service":"identity-service","timestamp":"2025-06-05T04:40:37.719Z"}
+{"level":"info","message":"Connect to mongodb","service":"identity-service","timestamp":"2025-06-05T04:40:39.650Z"}
+{"level":"info","message":"Received POST request to /api/auth/login","service":"identity-service","timestamp":"2025-06-05T04:40:42.846Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-06-05T04:40:42.846Z"}
+{"level":"info","message":"Login end point hit...","service":"identity-service","timestamp":"2025-06-05T04:40:42.849Z"}
+{"level":"error","message":"Registration error occured user.comparePassword is not a function","service":"identity-service","stack":"TypeError: user.comparePassword is not a function\n    at loginUser (D:\\casino\\identity-service\\src\\controllers\\identity-controller.js:64:40)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)","timestamp":"2025-06-05T04:40:43.048Z"}
+{"level":"info","message":"Received POST request to /api/auth/login","service":"identity-service","timestamp":"2025-06-05T04:43:07.643Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-06-05T04:43:07.644Z"}
+{"level":"info","message":"Login end point hit...","service":"identity-service","timestamp":"2025-06-05T04:43:07.645Z"}
+{"level":"error","message":"Registration error occured user.comparePassword is not a function","service":"identity-service","stack":"TypeError: user.comparePassword is not a function\n    at loginUser (D:\\casino\\identity-service\\src\\controllers\\identity-controller.js:64:40)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)","timestamp":"2025-06-05T04:43:07.838Z"}
+{"level":"info","message":"Received POST request to /api/auth/login","service":"identity-service","timestamp":"2025-06-05T04:44:58.556Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-06-05T04:44:58.557Z"}
+{"level":"info","message":"Login end point hit...","service":"identity-service","timestamp":"2025-06-05T04:44:58.558Z"}
+{"level":"error","message":"Registration error occured user.comparePassword is not a function","service":"identity-service","stack":"TypeError: user.comparePassword is not a function\n    at loginUser (D:\\casino\\identity-service\\src\\controllers\\identity-controller.js:64:40)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)","timestamp":"2025-06-05T04:44:58.750Z"}
+{"level":"info","message":"Identity service running on port: 3001","service":"identity-service","timestamp":"2025-06-05T04:45:16.722Z"}
+{"level":"info","message":"Received POST request to /api/auth/login","service":"identity-service","timestamp":"2025-06-05T04:45:18.644Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-06-05T04:45:18.644Z"}
+{"level":"info","message":"Login end point hit...","service":"identity-service","timestamp":"2025-06-05T04:45:18.647Z"}
+{"level":"info","message":"Connect to mongodb","service":"identity-service","timestamp":"2025-06-05T04:45:18.657Z"}
+{"level":"info","message":"Received POST request to /api/auth/login","service":"identity-service","timestamp":"2025-06-05T04:47:41.618Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-06-05T04:47:41.619Z"}
+{"level":"info","message":"Login end point hit...","service":"identity-service","timestamp":"2025-06-05T04:47:41.620Z"}
+{"level":"info","message":"Received POST request to /api/auth/login","service":"identity-service","timestamp":"2025-06-05T04:47:43.773Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-06-05T04:47:43.773Z"}
+{"level":"info","message":"Login end point hit...","service":"identity-service","timestamp":"2025-06-05T04:47:43.774Z"}
+{"level":"info","message":"Received POST request to /api/auth/login","service":"identity-service","timestamp":"2025-06-05T04:47:45.545Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-06-05T04:47:45.545Z"}
+{"level":"info","message":"Login end point hit...","service":"identity-service","timestamp":"2025-06-05T04:47:45.546Z"}
+{"level":"info","message":"Received POST request to /api/auth/login","service":"identity-service","timestamp":"2025-06-05T04:47:46.595Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-06-05T04:47:46.596Z"}
+{"level":"info","message":"Login end point hit...","service":"identity-service","timestamp":"2025-06-05T04:47:46.597Z"}
+{"level":"info","message":"Received POST request to /api/auth/login","service":"identity-service","timestamp":"2025-06-05T04:47:47.660Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-06-05T04:47:47.660Z"}
+{"level":"info","message":"Login end point hit...","service":"identity-service","timestamp":"2025-06-05T04:47:47.660Z"}
+{"level":"info","message":"Received POST request to /api/auth/login","service":"identity-service","timestamp":"2025-06-05T06:32:31.488Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-06-05T06:32:31.489Z"}
+{"level":"info","message":"Login end point hit...","service":"identity-service","timestamp":"2025-06-05T06:32:31.489Z"}
+{"level":"info","message":"Received POST request to /api/auth/login","service":"identity-service","timestamp":"2025-06-05T06:32:40.655Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-06-05T06:32:40.655Z"}
+{"level":"info","message":"Login end point hit...","service":"identity-service","timestamp":"2025-06-05T06:32:40.656Z"}
+{"level":"info","message":"Identity service running on port: 3001","service":"identity-service","timestamp":"2025-06-05T07:18:14.107Z"}
+{"level":"info","message":"Connect to mongodb","service":"identity-service","timestamp":"2025-06-05T07:18:16.072Z"}
+{"level":"info","message":"Received POST request to /api/auth/refreshtoken","service":"identity-service","timestamp":"2025-06-05T07:18:31.705Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-06-05T07:18:31.706Z"}
+{"level":"info","message":"Refresh token endpoint hit...","service":"identity-service","timestamp":"2025-06-05T07:18:31.709Z"}
+{"level":"info","message":"Invalid or expired refresh token","service":"identity-service","timestamp":"2025-06-05T07:18:31.906Z"}
+{"level":"info","message":"Received POST request to /api/auth/refreshtoken","service":"identity-service","timestamp":"2025-06-05T07:18:50.807Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-06-05T07:18:50.807Z"}
+{"level":"info","message":"Refresh token endpoint hit...","service":"identity-service","timestamp":"2025-06-05T07:18:50.808Z"}
+{"level":"warn","message":"User not found","service":"identity-service","timestamp":"2025-06-05T07:18:51.198Z"}
+{"level":"info","message":"Received POST request to /api/auth/login","service":"identity-service","timestamp":"2025-06-05T07:19:00.782Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-06-05T07:19:00.782Z"}
+{"level":"info","message":"Login end point hit...","service":"identity-service","timestamp":"2025-06-05T07:19:00.784Z"}
+{"_message":"RefreshToken validation failed","errors":{"user_id":{"kind":"required","message":"Path `user_id` is required.","name":"ValidatorError","path":"user_id","properties":{"message":"Path `user_id` is required.","path":"user_id","type":"required"}}},"level":"error","message":"Login error occured RefreshToken validation failed: user_id: Path `user_id` is required.","service":"identity-service","stack":"ValidationError: RefreshToken validation failed: user_id: Path `user_id` is required.\n    at Document.invalidate (D:\\casino\\identity-service\\node_modules\\mongoose\\lib\\document.js:3343:32)\n    at D:\\casino\\identity-service\\node_modules\\mongoose\\lib\\document.js:3104:17\n    at D:\\casino\\identity-service\\node_modules\\mongoose\\lib\\schemaType.js:1407:9\n    at process.processTicksAndRejections (node:internal/process/task_queues:85:11)","timestamp":"2025-06-05T07:19:01.016Z"}
+{"level":"info","message":"Received POST request to /api/auth/register","service":"identity-service","timestamp":"2025-06-05T07:20:56.598Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-06-05T07:20:56.599Z"}
+{"level":"info","message":"Resgistration endpoint hit...","service":"identity-service","timestamp":"2025-06-05T07:20:56.599Z"}
+{"buffer":{"data":[104,65,69,88,243,69,6,106,110,1,194,28],"type":"Buffer"},"level":"info","message":"User saved successfully","service":"identity-service","timestamp":"2025-06-05T07:20:57.053Z"}
+{"level":"info","message":"Received POST request to /api/auth/login","service":"identity-service","timestamp":"2025-06-05T07:21:17.568Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-06-05T07:21:17.568Z"}
+{"level":"info","message":"Login end point hit...","service":"identity-service","timestamp":"2025-06-05T07:21:17.569Z"}
+{"_message":"RefreshToken validation failed","errors":{"user_id":{"kind":"required","message":"Path `user_id` is required.","name":"ValidatorError","path":"user_id","properties":{"message":"Path `user_id` is required.","path":"user_id","type":"required"}}},"level":"error","message":"Login error occured RefreshToken validation failed: user_id: Path `user_id` is required.","service":"identity-service","stack":"ValidationError: RefreshToken validation failed: user_id: Path `user_id` is required.\n    at Document.invalidate (D:\\casino\\identity-service\\node_modules\\mongoose\\lib\\document.js:3343:32)\n    at D:\\casino\\identity-service\\node_modules\\mongoose\\lib\\document.js:3104:17\n    at D:\\casino\\identity-service\\node_modules\\mongoose\\lib\\schemaType.js:1407:9\n    at process.processTicksAndRejections (node:internal/process/task_queues:85:11)","timestamp":"2025-06-05T07:21:17.802Z"}
+{"level":"info","message":"Identity service running on port: 3001","service":"identity-service","timestamp":"2025-06-05T07:23:34.241Z"}
+{"level":"info","message":"Connect to mongodb","service":"identity-service","timestamp":"2025-06-05T07:23:36.196Z"}
+{"level":"info","message":"Received POST request to /api/auth/login","service":"identity-service","timestamp":"2025-06-05T07:23:39.013Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-06-05T07:23:39.013Z"}
+{"level":"info","message":"Login end point hit...","service":"identity-service","timestamp":"2025-06-05T07:23:39.016Z"}
+{"level":"info","message":"Received POST request to /api/auth/refreshtoken","service":"identity-service","timestamp":"2025-06-05T07:24:28.700Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-06-05T07:24:28.701Z"}
+{"level":"info","message":"Refresh token endpoint hit...","service":"identity-service","timestamp":"2025-06-05T07:24:28.702Z"}
+{"level":"warn","message":"User not found","service":"identity-service","timestamp":"2025-06-05T07:24:29.086Z"}
+{"level":"info","message":"Identity service running on port: 3001","service":"identity-service","timestamp":"2025-06-05T07:25:49.204Z"}
+{"level":"info","message":"Connect to mongodb","service":"identity-service","timestamp":"2025-06-05T07:25:51.150Z"}
+{"level":"info","message":"Received POST request to /api/auth/refreshtoken","service":"identity-service","timestamp":"2025-06-05T07:25:54.023Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-06-05T07:25:54.023Z"}
+{"level":"info","message":"Refresh token endpoint hit...","service":"identity-service","timestamp":"2025-06-05T07:25:54.025Z"}
+{"level":"info","message":"Received POST request to /api/auth/logout","service":"identity-service","timestamp":"2025-06-05T07:28:23.722Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-06-05T07:28:23.722Z"}
+{"level":"info","message":"Logout endpoint hit...","service":"identity-service","timestamp":"2025-06-05T07:28:23.723Z"}
+{"level":"info","message":"Refresh token deleted for logout","service":"identity-service","timestamp":"2025-06-05T07:28:23.918Z"}
+{"level":"info","message":"Received POST request to /api/auth/logout","service":"identity-service","timestamp":"2025-06-05T07:29:16.618Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-06-05T07:29:16.618Z"}
+{"level":"info","message":"Logout endpoint hit...","service":"identity-service","timestamp":"2025-06-05T07:29:16.618Z"}
+{"level":"info","message":"Refresh token deleted for logout","service":"identity-service","timestamp":"2025-06-05T07:29:16.812Z"}
+{"level":"info","message":"Received POST request to /api/auth/logout","service":"identity-service","timestamp":"2025-06-05T07:29:42.888Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-06-05T07:29:42.888Z"}
+{"level":"info","message":"Logout endpoint hit...","service":"identity-service","timestamp":"2025-06-05T07:29:42.889Z"}
+{"level":"info","message":"Refresh token deleted for logout","service":"identity-service","timestamp":"2025-06-05T07:29:43.086Z"}
+{"level":"info","message":"Identity service running on port: 3001","service":"identity-service","timestamp":"2025-06-05T09:04:13.614Z"}
+{"level":"info","message":"Connect to mongodb","service":"identity-service","timestamp":"2025-06-05T09:04:15.517Z"}
+{"level":"info","message":"Received POST request to /api/auth/login","service":"identity-service","timestamp":"2025-06-05T09:04:21.392Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-06-05T09:04:21.392Z"}
+{"level":"info","message":"Login end point hit...","service":"identity-service","timestamp":"2025-06-05T09:04:21.395Z"}
+{"level":"info","message":"Received POST request to /api/auth/login","service":"identity-service","timestamp":"2025-06-05T09:04:39.807Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-06-05T09:04:39.807Z"}
+{"level":"info","message":"Login end point hit...","service":"identity-service","timestamp":"2025-06-05T09:04:39.809Z"}
+{"level":"warn","message":"Invalid user","service":"identity-service","timestamp":"2025-06-05T09:04:40.022Z"}
+{"level":"info","message":"Identity service running on port: 3001","service":"identity-service","timestamp":"2025-06-05T09:17:37.086Z"}
+{"level":"info","message":"Connect to mongodb","service":"identity-service","timestamp":"2025-06-05T09:17:38.992Z"}
+{"level":"info","message":"Received POST request to /api/auth/login","service":"identity-service","timestamp":"2025-06-05T09:17:43.567Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-06-05T09:17:43.567Z"}
+{"level":"info","message":"Login end point hit...","service":"identity-service","timestamp":"2025-06-05T09:17:43.570Z"}
+{"level":"info","message":"Identity service running on port: 3001","service":"identity-service","timestamp":"2025-06-05T09:21:40.127Z"}
+{"level":"info","message":"Connect to mongodb","service":"identity-service","timestamp":"2025-06-05T09:21:42.035Z"}
+{"level":"info","message":"Received POST request to /api/auth/login","service":"identity-service","timestamp":"2025-06-05T09:22:48.501Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-06-05T09:22:48.501Z"}
+{"level":"info","message":"Login end point hit...","service":"identity-service","timestamp":"2025-06-05T09:22:48.505Z"}
+{"level":"info","message":"Received POST request to /api/auth/login","service":"identity-service","timestamp":"2025-06-05T09:31:37.968Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-06-05T09:31:37.968Z"}
+{"level":"info","message":"Login end point hit...","service":"identity-service","timestamp":"2025-06-05T09:31:37.969Z"}
+{"level":"info","message":"Identity service running on port: 3001","service":"identity-service","timestamp":"2025-06-05T09:35:57.527Z"}
+{"level":"info","message":"Connect to mongodb","service":"identity-service","timestamp":"2025-06-05T09:35:59.491Z"}
+{"level":"info","message":"Received POST request to /api/auth/login","service":"identity-service","timestamp":"2025-06-05T09:36:01.894Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-06-05T09:36:01.894Z"}
+{"level":"info","message":"Login end point hit...","service":"identity-service","timestamp":"2025-06-05T09:36:01.897Z"}

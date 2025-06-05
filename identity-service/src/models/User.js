@@ -1,55 +1,52 @@
-const mongoose = require('mongoose');
-const argon2 = require('argon2');
+const mongoose = require("mongoose");
+const argon2 = require("argon2");
 
-const userSchema = new mongoose.Schema({
-    username: {
-        type: String,
-        required: true,
-        unique: true,
-        trim: true
+const userSchema = new mongoose.Schema(
+  {
+    first_name: {
+      type: String,
+      unique: true,
+      trim: true,
     },
     email: {
-        type: String,
-        required: true,
-        unique: true,
-        trim: true,
-        lowercase: true
+      type: String,
+      required: true,
+      unique: true,
+      trim: true,
+      lowercase: true,
     },
     password: {
-        type: String,
-        required: true,
+      type: String,
+      required: true,
     },
     createdAt: {
-        type: Date,
-        default: Date.now
-    }
-},
-    {
-        timestamps: true
-    }
+      type: Date,
+      default: Date.now,
+    },
+  },
+  {
+    timestamps: true,
+  }
 );
 
-userSchema.pre('save', async function (next) {
-    if (this.isModified('password')) {
-        try {
-            this.password = await argon2.hash(this.password);
-        }
-        catch (error) {
-            return next(error);
-        }
-    }
-});
-userSchema.method.comparePassword = async function (candidataPassword) {
+userSchema.pre("save", async function (next) {
+  if (this.isModified("password")) {
     try {
-        return await argon2.verify(this.password, candidataPassword);
+      this.password = await argon2.hash(this.password);
+    } catch (error) {
+      return next(error);
     }
-    catch (error) {
-        throw error;
-    }
+  }
+});
+userSchema.methods.comparePassword = async function (candidataPassword) {
+  try {
+    return await argon2.verify(this.password, candidataPassword);
+  } catch (error) {
+    throw error;
+  }
 };
 
-userSchema.index({ userName: "text" });
+userSchema.index({ user_name: "text" });
 const User = mongoose.model("User", userSchema);
 
 module.exports = User;
-
