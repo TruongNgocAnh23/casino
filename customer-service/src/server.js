@@ -6,6 +6,7 @@ import cookieParser from "cookie-parser";
 import connectDB from "./config/db.js";
 import authRoutes from "./routes/auth.routes.js";
 import { errorHandler } from "./middleware/error-handler.middleware.js";
+import { logger } from "./utils/logger.js";
 
 dotenv.config();
 
@@ -26,5 +27,11 @@ app.use(errorHandler);
 
 app.listen(port, async () => {
   console.log(`http://localhost:${port}`);
+  logger.info(`Customer service running on port: http://localhost:${port}`)
   await connectDB();
+});
+
+//unhandled promise rejection
+process.on("unhandledRejection", (reason, promise) => {
+    logger.error("Unhandled Rejection at", promise, "reason", reason);
 });

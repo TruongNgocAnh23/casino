@@ -17,6 +17,10 @@ const hashPassword = async (password) => {
   return await argon2.hash(password);
 };
 
+const verifyPassword = async (hashedPassword, inputPassword) => {
+  return await argon2.verify(hashedPassword, inputPassword);
+};
+
 const isValidCitizenId = (citizenId) => {
   const regex = /^\d{12}$/;
   if (!regex.test(citizenId)) {
@@ -26,4 +30,4 @@ const isValidCitizenId = (citizenId) => {
   return validProvinceCodes.includes(provinceCode);
 };
 
-export { isValidEmail, hashPassword, isValidCitizenId };
+export { isValidEmail, hashPassword, verifyPassword, isValidCitizenId };

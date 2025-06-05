@@ -3,7 +3,7 @@ import Customer from "../models/customer.model.js";
 
 const protectRoute = async (req, res, next) => {
   try {
-    const token = req.cookies.accessToken;
+    const token = req.cookies.customer_access_token;
   
     if (!token) {
       return res.status(401).json({ error: true, message: "Token not provided." });

@@ -1,7 +1,7 @@
 import joi from "joi";
 import { isValidCitizenId } from "../utils/helper.js";
 
-const registerValidator = joi.object({
+const registerValidation = joi.object({
   first_name: joi.string().required().messages({
     'any.required': 'First name required.',
     'string.empty': 'First name required.'
@@ -38,4 +38,17 @@ const registerValidator = joi.object({
   address: joi.string().optional().allow(null, '')
 });
 
-export { registerValidator };
+const loginValidation = joi.object({
+  email: joi.string().email().required().messages({
+    'any.required': 'Email required.',
+    'string.email': "Email's format not valid.",
+    'string.empty': 'Email required.'
+  }),
+  password: joi.string().min(6).required().messages({
+    'any.required': 'Password required.',
+    'string.min': 'Password must be at least 6 characters.',
+    'string.empty': 'Password required.'
+  }),
+});
+
+export { registerValidation, loginValidation };
