@@ -1,46 +1,21 @@
 import Customer from "../models/customer.model.js";
 import { hashPassword, isValidCitizenId, isValidEmail } from "../utils/helper.js";
+import { registerValidator } from "../validations/customer.validation.js";
 
 const register = async (req, res, next) => {
   try {
     const { first_name, last_name, email, password, phone, citizen_id, tax_id, birthday, address } = req.body;
 
-    if (!first_name) {
-      return res.status(400).json({ error: true, message: "First name required." });
-    }
+    const { error } = registerValidator.validate(req.body, { abortEarly: true });
 
-    if (!email) {
-      return res.status(400).json({ error: true, message: "Email required." });
-    }
-
-    if (!isValidEmail(email)) {
-      return res.status(400).json({ error: true, message: "Email's format not valid." });
-    }
-
-    if (!password) {
-      return res.status(400).json({ error: true, message: "Password required." });
-    }
-
-    if (password.length < 6) {
-      return res.status(400).json({ error: true, message: "Password must be at least 6 characters." });
+    if (error) {
+      return res.status(400).json({ error: true, message: error.details[0].message });
     }
 
     const currentUser  = await Customer.findOne({ email: email });
 
     if (currentUser) {
-      return res.status(400).json({ error: true, message: `Username ${username} already exists.` });
-    }
-
-    if (!citizen_id) {
-      return res.status(400).json({ error: true, message: "Citizen ID required." });
-    }
-
-    if (!isValidCitizenId(citizen_id)) {
-      return res.status(400).json({ error: true, message: "Citizen ID must be a 12-digit number and correct format." });
-    }
-
-    if (!tax_id) {
-      return res.status(400).json({ error: true, message: "Tax ID required." });
+      return res.status(400).json({ error: true, message: `Email ${email} already exists.` });
     }
 
     const hashedPassword = await hashPassword(password);
