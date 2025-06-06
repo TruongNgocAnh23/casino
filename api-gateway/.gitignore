@@ -1,0 +1,51 @@
+# Node dependencies
+node_modules/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+error.log
+
+# Environment variables
+.env
+.env.*.local
+
+# Runtime data
+pids/
+*.pid
+*.pid.lock
+
+# Build output
+dist/
+build/
+.cache/
+tmp/
+temp/
+
+# TypeScript
+*.tsbuildinfo
+
+# Test coverage
+coverage/
+.nyc_output/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Editors/IDE
+.vscode/
+.idea/
+
+# Docker
+docker-compose.override.yml
+.docker/
+
+# Misc
+*.swp
+*.swo
+*.bak
+*.orig
+*.rej
+*.tgz
